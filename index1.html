@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win塑料颜料</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #eee;
+        }
+        /* * {
+            border: 1px solid rgb(0, 0, 0);
+        } */
+        .bs {
+            box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+                rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+        }
+        .flex {
+            display: flex;
+        }
+        .flex1 {
+            flex: 1;
+        }
+        .c {
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body class="flex">
+    <!--侧边栏-->
+    <div style="
+        width: 190px;
+        background-color: white;"
+        class="bs">
+        <a href="\"><img src=".\P.WEBP" width="188px"></a>
+    </div>
+    <!--主区域-->
+    <div class="flex flex1 c">
+        <!--头部-->
+        <div style="
+            height: 60px;
+            background-color: white;
+            z-index: 1;"
+            class="bs">
+        </div>
+        <!--下部-->
+        <div class="flex flex1">
+            <!--左-->
+            <div style="flex: 3;
+            overflow: auto;
+            background-color: white;"
+            class="flex c bs">
+                
+            </div>
+            <!--右-->
+            <div class="flex1 flex c">
+                <div style="height: 320px;
+                background-color: white;"
+                class="bs">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
